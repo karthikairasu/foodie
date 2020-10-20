@@ -1,0 +1,608 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Foodie -Menu List</title> 
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <!-- Font Awesome -->
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <!-- Bootstrap core CSS -->
+      <link href="http://localhost/Akarthi/Foodie_Code/foodie_web/assets/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Your custom styles (optional) -->
+      <link href="http://localhost/Akarthi/Foodie_Code/foodie_web/assets/css/style.css" rel="stylesheet">
+      <link href="http://localhost/Akarthi/Foodie_Code/foodie_web/assets/css/mobile.css" rel="stylesheet">
+      <link href="http://localhost/Akarthi/Foodie_Code/foodie_web/assets/css/custom.css" rel="stylesheet">
+      <style type="text/css">
+        .fixed-bottom{
+           box-shadow:  0px -6px 8px 3px rgba(0, 0, 0, 0.2), inset 0px -4px 20px 0 rgba(0, 0, 0, 0.19);
+           background-color: #eff0f5;
+           position: fixed;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1030;
+        }
+        .nav_bottom{
+            white-space: nowrap;
+            margin-bottom: 0px;
+        }
+        .nav_bottom table{
+            text-align: center;
+        }
+        .nav_bottom table thead th{
+            border:none !important;
+            padding: 6px 20px;
+            vertical-align: middle;
+            font-size: 13px;
+            text-align: center;
+
+        }
+        .nav_bottom table thead th a{
+            text-decoration: none;
+            color: #000;
+            font-family: Montserrat;
+            font-weight: bold;
+        }
+        .nav_bottom table thead th a:hover{
+          color: green;
+        }
+        .ff_mont{
+          font-family: Montserrat;
+        }
+      </style>
+    </head>
+  <!-- Header web -->
+   
+   <!-- Header web -->
+<body>
+   <header class="heads hidden-xs">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span> 
+               </button>
+               <a class="navbar-brand" href="#"><img src="http://localhost/Akarthi/Foodie_Code/foodie_web/img/logos.jpg" width="100"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav  navbar-right">
+                  <li class="active"><a href="http://localhost/Akarthi/Foodie_Code/foodie_web/web/index/php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                  <li><a href="search.html"><i class="fa fa-search" aria-hidden="true"></i> Explore</a></li>
+                  <li><a href="javascript:void(0);"><i class="fa fa-star" aria-hidden="true"></i> Review Us</a></li>
+                  <li><a href="javascript:void(0);"><i class="fa fa-heart" aria-hidden="true"></i> Foodie Favourite</a></li>
+                  <li><a href="javascript:void(0);"><i class="fa fa-file-text-o" aria-hidden="true"></i> FeedBack</a></li>
+                  <!-- <li><a href="javascript:void(0);"><i class="fa fa-money" aria-hidden="true"></i> Payment</a></li> -->
+                  <li><a href="javascript:void(0);"><i class="fa fa-file-text" aria-hidden="true"></i>  Order History</a></li>
+                  <li><a href="javascript:void(0);"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Account</a></li>
+                  <li><a href="http://localhost/Akarthi/Foodie_Code/foodie_web/web/my_cart"><i class="fa fa-shopping-bag" aria-hidden="true"></i> My Cart</a></li>
+                  <li><a href="javascript:void(0);" data-toggle="modal" data-target="#signup"><i class="fa fa-sign-out" aria-hidden="true"></i> sign Up </a></li>
+                  <li><a href="javascript:void(0);" data-toggle="modal" data-target="#login"><i class="fa fa-sign-out" aria-hidden="true"></i> Login</a></li>
+
+                  
+  
+               </ul>
+               <!-- <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul> -->
+            </div>
+         </div>
+      </nav>
+   </header>
+   
+
+    
+<!-- bar mobile -->
+<!-- offer web -->
+<section class="cate-bar hidden-xs">
+  <div class="container">
+   <div class="row">
+    <div class="col-sm-12">
+     <div class="col-sm-4">
+      <h3>King Abdullah</h3>
+      <small>King Abdullah Rd, Riyadh 12271, Saudi Arabia</small>
+    </div>
+    <div class="col-sm-4 text-center">
+     <img src="https://ansarapta.com/foodie_live/upload/1543818784_Zaatar.jpg" width="150">
+   </div>
+   <div class="col-sm-4">
+     <div class="_9uwBC wY0my">
+       <span class="icon-star _537e4"></span><span>3.5</span>
+     </div>
+     <br>
+      
+   </div>
+ </div>
+</div>
+</div>
+</section>
+<section  data-spy="scroll" data-target="#myScrollspy" data-offset="205" class="offer-secrins hidden-xs">
+  <div class="container">
+       <div class="row">
+    <div class="col-sm-12">
+     <div id="section1" class="active">
+      <div class="_2DF5K">
+                 <div class="col-md-3 col-sm-6 col-lg-3">
+          <div class="_1HEuF">
+            <a href="http://localhost/Akarthi/Foodie_Code/foodie_web/web/sub_menu_list/8">
+             <div class="all-imgs">
+              <img src="https://ansarapta.com/foodie_live/upload/1543821029_STREET FOOD.jpg" class="img-responsive">
+            </div>
+            <div class="title">
+              <a href="http://localhost/Akarthi/Foodie_Code/foodie_web/web/sub_menu_list/8"><h3 class="nA6kb">STREET FOOD</h3>
+                <div class="_1gURR" title="Bakery"><!-- Bakery --></div>
+              </div>
+            </a>
+          </div>
+        </div>
+               <div class="col-md-3 col-sm-6 col-lg-3">
+          <div class="_1HEuF">
+            <a href="http://localhost/Akarthi/Foodie_Code/foodie_web/web/sub_menu_list/9">
+             <div class="all-imgs">
+              <img src="https://ansarapta.com/foodie_live/upload/1543824504_TEASERS.jpg" class="img-responsive">
+            </div>
+            <div class="title">
+              <a href="http://localhost/Akarthi/Foodie_Code/foodie_web/web/sub_menu_list/9"><h3 class="nA6kb">Teasers</h3>
+                <div class="_1gURR" title="Bakery"><!-- Bakery --></div>
+              </div>
+            </a>
+          </div>
+        </div>
+               <div class="col-md-3 col-sm-6 col-lg-3">
+          <div class="_1HEuF">
+            <a href="http://localhost/Akarthi/Foodie_Code/foodie_web/web/sub_menu_list/10">
+             <div class="all-imgs">
+              <img src="https://ansarapta.com/foodie_live/upload/1543824995_SALADS.jpg" class="img-responsive">
+            </div>
+            <div class="title">
+              <a href="http://localhost/Akarthi/Foodie_Code/foodie_web/web/sub_menu_list/10"><h3 class="nA6kb">SALADS</h3>
+                <div class="_1gURR" title="Bakery"><!-- Bakery --></div>
+              </div>
+            </a>
+          </div>
+        </div>
+               <div class="col-md-3 col-sm-6 col-lg-3">
+          <div class="_1HEuF">
+            <a href="http://localhost/Akarthi/Foodie_Code/foodie_web/web/sub_menu_list/11">
+             <div class="all-imgs">
+              <img src="https://ansarapta.com/foodie_live/upload/1543825431_SPECIALTY WRAPS.png" class="img-responsive">
+            </div>
+            <div class="title">
+              <a href="http://localhost/Akarthi/Foodie_Code/foodie_web/web/sub_menu_list/11"><h3 class="nA6kb">SPECIALTY WRAPS</h3>
+                <div class="_1gURR" title="Bakery"><!-- Bakery --></div>
+              </div>
+            </a>
+          </div>
+        </div>
+          </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<!-- ALL RESTAURANTS mobile code -->
+<section class="offer-mobles hidden-sm hidden-md hidden-lg" style="">
+  <div class="container">
+    <div class="row">
+      <div class="filter-mob-cats colsss" style="padding: 4px 2px;border: 2px solid #9e1925;border-radius: 10px;background: linear-gradient(135deg, #ffffff 30%, #ffffff 30% 40%, #ffffff 40%);margin:2px 0px;position: fixed;top: 0;right: 0;left: 0;z-index: 1030;">
+        <div class="col-xs-4 nav_left vhc" style="height: 50px">
+          <!-- <h6><b>Decan Deewan</b></h6> -->
+          <div class="nav-wrapper d-inline">
+            <div class="sl-nav">
+              <ul>
+                <li><b class="lan_name" style="font-size:12px">English</b> 
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  <ul>
+                  <li><a href=""><i class="sl-flag flag-usa"><div id="usa"></div></i> <span class="active">English</span></a></li>
+                  <li><a href=""><i class="sl-flag flag-sa"><div id="sa"></div></i> <span>Arabic</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4 nav_center">
+          <img src="https://ansara.in/foodie_development/upload/1589629052_logo_alsultan2.png" class="" style="width:auto;height:45px">
+        </div>
+        <div class="col-xs-4 nav_right vhr" style="height: 50px;padding-right: 10px">
+         <!-- <div class="_9uwBC wY0my" style="color: black;">
+           <span class="icon-star _537e4"></span><span>4.5</span>
+         </div> -->
+           <div class="cart_main" onclick="" style="cursor: pointer;position: relative;">
+              <i class="fas fa-cart-plus cart_plus px-1" style="" aria-hidden="true"></i>
+              <span class="count_badge sub_cart font-weight-bold">0</span>
+           </div>
+        </div>
+        <div class="color_bar" style="position: absolute;right: -2px;top: -4px;height: 70px;z-index: 10;width: 50%;border-left: 70px solid transparent;border-bottom: 70px solid #9e1925;"></div>
+     </div>
+   </div>
+    <section class="topsall hidden-lg hidden-md hidden-sm sub-catemob">
+  
+  <div class="container">
+    <div class="row">
+      <div class="mob-result-searech">
+        <div class="">
+                      <div class="sr-loop col-xs-6" style="margin-top: 20px;padding: 0px 12px;">
+              <div class="p-10 bg-lightgray" style="box-shadow: 0px 2px 4px 0px #6f6f6f;">
+              <div class="submenus-img text-center p-10 bg-white">
+                <div class="heart-s">
+                  <i class="fa fa-heart"></i>
+                </div>
+                <img src="https://ansarapta.com/foodie_live/upload/1543825470_BBQ STEAK WRAP.jpg" class="img-responsive" height="200" width="200" alt="submenu" title="BBQ STEAK WRAP" style="max-width: 100%;height: 90px;border-radius:8px;display: inline;">
+              </div>
+              <div class="details-tile-btns">
+                <div class="col-xs-12" style="padding:0px;font-size:12px;">
+                  <div class="title-pro text_dkblue">
+                    <p><b>BBQ STEAK WRAP</b></p>
+                  </div>
+              </div>
+              <div class="col-xs-10 added" style="margin-left: 0px;padding: 0px 20px 0 0">
+                                  <div class="input-group customs">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-danger btn-number sub" data-id="39" onclick="minus(39,11)" style="padding:7px;">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                  </span>
+                    <input type="text" id="" class="form-control input-number qty_39" value="0">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-success btn-number add" data-id="39" onclick="plus(39,11)" data-max="1000" style="padding:7px;">
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </span>
+                </div>
+              
+              </div>
+              <div class="col-xs-2 vhc text_dkblue" style="padding:0px;height: 42px">
+                <b>
+                                      <small>₹&nbsp;SAR200</small>
+                                    </b>
+              </div>
+              
+            </div>
+             
+             </div>
+
+          </div>
+                    <div class="sr-loop col-xs-6" style="margin-top: 20px;padding: 0px 12px;">
+              <div class="p-10 bg-lightgray" style="box-shadow: 0px 2px 4px 0px #6f6f6f;">
+              <div class="submenus-img text-center p-10 bg-white">
+                <div class="heart-s">
+                  <i class="fa fa-heart"></i>
+                </div>
+                <img src="https://ansarapta.com/foodie_live/upload/1543825518_TURKEY &amp; CHEESE.jpg" class="img-responsive" height="200" width="200" alt="submenu" title="TURKEY &amp; CHEESE" style="max-width: 100%;height: 90px;border-radius:8px;display: inline;">
+              </div>
+              <div class="details-tile-btns">
+                <div class="col-xs-12" style="padding:0px;font-size:12px;">
+                  <div class="title-pro text_dkblue">
+                    <p><b>TURKEY &amp; CHEESE</b></p>
+                  </div>
+              </div>
+              <div class="col-xs-10 added" style="margin-left: 0px;padding: 0px 20px 0 0">
+                                  <div class="input-group customs">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-danger btn-number sub" data-id="40" onclick="minus(40,11)" style="padding:7px;">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                  </span>
+                    <input type="text" id="" class="form-control input-number qty_40" value="0">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-success btn-number add" data-id="40" onclick="plus(40,11)" data-max="1000" style="padding:7px;">
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </span>
+                </div>
+              
+              </div>
+              <div class="col-xs-2 vhc text_dkblue" style="padding:0px;height: 42px">
+                <b>
+                                      <small>₹&nbsp;SAR200</small>
+                                    </b>
+              </div>
+              
+            </div>
+             
+             </div>
+
+          </div>
+                    <div class="sr-loop col-xs-6" style="margin-top: 20px;padding: 0px 12px;">
+              <div class="p-10 bg-lightgray" style="box-shadow: 0px 2px 4px 0px #6f6f6f;">
+              <div class="submenus-img text-center p-10 bg-white">
+                <div class="heart-s">
+                  <i class="fa fa-heart"></i>
+                </div>
+                <img src="https://ansarapta.com/foodie_live/upload/1543825565_MIGHTY KAFTA.jpg" class="img-responsive" height="200" width="200" alt="submenu" title="MIGHTY KAFTA" style="max-width: 100%;height: 90px;border-radius:8px;display: inline;">
+              </div>
+              <div class="details-tile-btns">
+                <div class="col-xs-12" style="padding:0px;font-size:12px;">
+                  <div class="title-pro text_dkblue">
+                    <p><b>MIGHTY KAFTA</b></p>
+                  </div>
+              </div>
+              <div class="col-xs-10 added" style="margin-left: 0px;padding: 0px 20px 0 0">
+                                  <div class="input-group customs">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-danger btn-number sub" data-id="41" onclick="minus(41,11)" style="padding:7px;">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                  </span>
+                    <input type="text" id="" class="form-control input-number qty_41" value="0">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-success btn-number add" data-id="41" onclick="plus(41,11)" data-max="1000" style="padding:7px;">
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </span>
+                </div>
+              
+              </div>
+              <div class="col-xs-2 vhc text_dkblue" style="padding:0px;height: 42px">
+                <b>
+                                      <small>₹&nbsp;SAR200</small>
+                                    </b>
+              </div>
+              
+            </div>
+             
+             </div>
+
+          </div>
+                    <div class="sr-loop col-xs-6" style="margin-top: 20px;padding: 0px 12px;">
+              <div class="p-10 bg-lightgray" style="box-shadow: 0px 2px 4px 0px #6f6f6f;">
+              <div class="submenus-img text-center p-10 bg-white">
+                <div class="heart-s">
+                  <i class="fa fa-heart"></i>
+                </div>
+                <img src="https://ansarapta.com/foodie_live/upload/1543825591_CHICKEN ESCALOPE.jpg" class="img-responsive" height="200" width="200" alt="submenu" title="CHICKEN ESCALOPE" style="max-width: 100%;height: 90px;border-radius:8px;display: inline;">
+              </div>
+              <div class="details-tile-btns">
+                <div class="col-xs-12" style="padding:0px;font-size:12px;">
+                  <div class="title-pro text_dkblue">
+                    <p><b>CHICKEN ESCALOPE</b></p>
+                  </div>
+              </div>
+              <div class="col-xs-10 added" style="margin-left: 0px;padding: 0px 20px 0 0">
+                                  <div class="input-group customs">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-danger btn-number sub" data-id="42" onclick="minus(42,11)" style="padding:7px;">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                  </span>
+                    <input type="text" id="" class="form-control input-number qty_42" value="0">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-success btn-number add" data-id="42" onclick="plus(42,11)" data-max="1000" style="padding:7px;">
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </span>
+                </div>
+              
+              </div>
+              <div class="col-xs-2 vhc text_dkblue" style="padding:0px;height: 42px">
+                <b>
+                                      <small>₹&nbsp;SAR200</small>
+                                    </b>
+              </div>
+              
+            </div>
+             
+             </div>
+
+          </div>
+              </div>
+    </div>
+  </div>
+</div>
+</section>
+</div>
+</section><br><br><br>
+<!-- ALL RESTAURANTS mobile code -->
+<!-- ALL RESTAURANTS web -->
+<!--------footer mobile-------->
+<nav class="navbar fixed-bottom navbar-light text-dark px-2 py-2 d-lg-none" style="margin:0px">
+  <div class="table-responsive nav_bottom">
+ <table class="table table-bordered text-center mb-0 border-0">
+      <thead>
+        <tr>
+          <th class="">
+            <!-- <img src="assets/images/wi2.png" class="text-white" style="height: 24px;width: 24px"> -->
+            <a href="https://ansara.in/foodie/web/"><i class="fas fa-home" style="font-size: 22px" aria-hidden="true"></i><br>Home</a></th>
+          <th class="px-1"></th>
+          <th class="">
+            <a href="#"><i class="fas fa-search" style="font-size: 22px" aria-hidden="true"></i><br>Explore</a></th>
+          <th class="px-1"></th>
+          <th class="">
+            <a href="https://ansara.in/foodie/web/my_cart"><i class="fas fa-shopping-bag" style="font-size: 22px" aria-hidden="true"></i><br>My Cart</a></th>
+          <th class="px-1"></th>
+          <th class="">
+            <a href="#"><i class="fas fa-file-alt" style="font-size: 22px" aria-hidden="true"></i><br>Order History</a></th>
+          <th class="px-1"></th>
+          <th class="">
+            <a href="#"><i class="fas fa-money-bill-alt" style="font-size: 22px" aria-hidden="true"></i><br>Payment</a></th>
+          <th class="px-1"></th>
+          <th class="">
+            <a href="#"><i class="fas fa-star" style="font-size: 22px" aria-hidden="true"></i><br>Review Us</a></th>
+          <th class="px-1"></th>
+          <th class="">
+            <a href="#"><i class="fas fa-heart" style="font-size: 22px" aria-hidden="true"></i><br>Favourite</a></th>
+          <th class="px-1"></th>
+          <th class="">
+            <a href="#"><i class="far fa-file-alt" style="font-size: 22px" aria-hidden="true"></i><br>Feedback</a></th>
+          <th class="px-1"></th>
+          <th class="">
+            <a href="#"><i class="fas fa-user" style="font-size: 22px" aria-hidden="true"></i><br>Account</a></th>
+          <th class="px-1"></th>
+          <th class="">
+            <a href="#"><i class="fas fa-power-off" style="font-size: 22px" aria-hidden="true"></i><br>Logout</a>
+          </th>
+        </tr>
+      </thead>
+    </table>
+  </div> 
+</nav>
+<!--------footer mobile-------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css?family=Play|Titillium+Web|Montserrat|Roboto|Libre+Baskerville|Ubuntu&amp;display=swap" rel="stylesheet">
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="http://localhost/Akarthi/Foodie_Code/foodie_web/assets/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+   $('.carousel[data-type="multi"] .item').each(function(){
+    var next = $(this).next();
+    if (!next.length) {
+     next = $(this).siblings(':first');
+   }
+   next.children(':first-child').clone().appendTo($(this));
+
+   for (var i=0;i<2;i++) {
+     next=next.next();
+     if (!next.length) {
+       next = $(this).siblings(':first');
+     }
+     
+     next.children(':first-child').clone().appendTo($(this));
+   }
+ });
+   /*alert popup*/
+   window.setTimeout(function() {
+    $(".alert").fadeTo(500, 0).slideUp(500, function(){
+      $(this).remove(); 
+    });
+  }, 2000);
+   /*End alert popup*/
+   /*Branch Model*/
+   $(document).ready(function(){
+    $('.openPopup').on('click',function(){
+      var dataURL = $(this).attr('data-href');
+      $('#modal_data').load(dataURL,function(){
+        $('.branch_popup').modal({show:true});
+      });
+    }); 
+  });
+   /*End Branch Model*/
+   /*Add or remove cart*/
+   var count = 0;
+   function plus(sub_menu_id,menu_id){
+     //alert(sub_menu_id);
+     var countEl = document.getElementById("count"+sub_menu_id);
+      //alert(countEl);
+      jQuery.ajax({
+        type:"POST",
+        url:'http://localhost/Akarthi/Foodie_Code/foodie_web/Web/add_item ',
+        data:{'sub_menu_id':sub_menu_id,'menu_id':menu_id,'action':'increase'},
+        success: function(response){
+          //var show_data = JSON.parse(response);
+          count++;
+          document.getElementById("mess").innerHTML = response; 
+        }
+      });  
+    }
+    function minus(sub_menu_id,menu_id){
+      if (count > 0) {
+        var countEl = document.getElementById("count"+sub_menu_id);
+        jQuery.ajax({
+          type:"POST",
+          url:'http://localhost/Akarthi/Foodie_Code/foodie_web/Web/add_item ',
+          data:{'sub_menu_id':sub_menu_id,'menu_id':menu_id,'action':'decrease'},
+          success: function(response){
+          //var show_data = JSON.parse(response);
+          count--;
+          document.getElementById("mess").innerHTML = response; 
+
+        }
+      });  
+      }  
+    }   
+    function inc_dec(sub_menu_id,menu_id,action){
+      if (count >= 0) {
+        var countEl = document.getElementById("count"+sub_menu_id);
+        jQuery.ajax({
+          type:"POST",
+          url:'http://localhost/Akarthi/Foodie_Code/foodie_web/Web/add_item ',
+          data:{'sub_menu_id':sub_menu_id,'menu_id':menu_id,'action':action},
+          success: function(response){
+          //var show_data = JSON.parse(response);
+          document.getElementById("mess").innerHTML = response; 
+
+        }
+      });  
+      }  
+    }
+    $('.add').click(function () {
+      var input_id = $(this).data('id');
+      var input_max = $(this).data('max');
+      var curent_value = parseInt($(".qty_"+input_id).val())
+      if(curent_value< input_max){
+      var curent_value = parseInt($(".qty_"+input_id).val())+1;
+      $(".qty_"+input_id).val(curent_value);
+      }else{
+        alert("Sorry We have "+curent_value+" Dish only");
+      }
+    });
+    $('.sub').click(function () {
+      var input_id = $(this).data('id');
+      if(parseInt($(".qty_"+input_id).val())>0){
+       var curent_value = parseInt($(".qty_"+input_id).val())-1;
+       $(".qty_"+input_id).val(curent_value);
+     }
+   });
+    /*End Add or remove cart*/
+    /*Crat Icon  value*/
+    setInterval(function(){
+      jQuery.ajax({
+        type:"POST",
+        url:'http://localhost/Akarthi/Foodie_Code/foodie_web/web/my_cart_icon ',
+        data:{},
+        dataType: 'json',
+        success: function(response){
+        //var show_data = JSON.parse(response);
+        $("#sub_cart").html(response.total_item+'item| ₹'+response.currency+' '+ response.total_item_price);
+       // alert(response.total_item);
+     }
+   }); 
+    }, 1000);
+    /*End Crat Icon  value*/
+    /*auto refresh my car*/
+    setInterval(function(){
+      
+      jQuery.ajax({
+        type:"POST",
+        url:'http://localhost/Akarthi/Foodie_Code/foodie_web/web/my_cart_auto_referesh ',
+        data:{},
+        success: function(response){
+          //var obj = JSON.parse(response);
+          //alert(obj.data1);
+          $("#refresh_my_cart").html();
+          $("#refresh_my_cart").html(response);
+                   
+        }
+      });
+    }, 1000);
+    /* End auto refresh my car*/
+     /*auto refresh my car*/
+    setInterval(function(){
+      jQuery.ajax({
+        type:"POST",
+        url:'http://localhost/Akarthi/Foodie_Code/foodie_web/web/view_place_order_auto_refresh ',
+        data:{},
+        success: function(response){
+          //var obj = JSON.parse(response);
+          //alert(obj.data1);
+          $("#cart_auto_refresh").html();
+          $("#cart_auto_refresh").html(response);
+                   
+        }
+      });
+    }, 1000);
+    /* End auto refresh my car*/
+    function closePage()
+    {   
+       self.close();
+    }
+  </script>
+  </body>
+</html>
